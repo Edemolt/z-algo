@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void create_z_array(string &str, int &n, vector<int> &z_vec){
+void zfn(string &str, int &n, vector<int> &z_vec){
     
     int l = 0, r = 0;
     int k;
@@ -50,7 +50,7 @@ void find(string &text, string &pattern){
     int n = str.size();
     vector<int> z_vec(n);
     
-    create_z_array(str, n, z_vec);
+    zfn(str, n, z_vec);
     
     for(int i = 0; i < n; i++){
         
